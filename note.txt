@@ -1,0 +1,3 @@
+How to enter an app context with Python shell:
+    ctx = app.test_request_context()
+    ctx.push()
