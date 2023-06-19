@@ -1,3 +1,6 @@
 How to enter an app context with Python shell:
     ctx = app.test_request_context()
     ctx.push()
+
+How to use command with flask app:
+    flask --app main_python_file_name operation(run/db) options(init/commit/upgrade)
